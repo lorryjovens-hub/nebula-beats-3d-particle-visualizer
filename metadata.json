@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Nebula Beats - 3D Particle Music Visualizer",
+  "description": "A high-performance 3D music visualizer using Three.js with 100,000 particles, reacting to bass and transients with cinematic geometric transitions and camera gestures.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
