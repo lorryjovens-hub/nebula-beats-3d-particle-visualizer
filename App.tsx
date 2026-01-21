@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Visualizer from './components/Visualizer';
 import { VisualizerConfig, ShapeType, PlayMode, Song, GestureType, ConnectionStatus } from './types';
 import { audioService } from './services/audioService';
@@ -362,6 +363,8 @@ const App: React.FC = () => {
           -webkit-appearance: none; width: 12px; height: 12px; background: #fff; border-radius: 50%; cursor: pointer; border: 2px solid #3b82f6; box-shadow: -100vw 0 0 100vw #3b82f6;
         }
       `}</style>
+      
+      <SpeedInsights />
     </div>
   );
 };
